@@ -24,7 +24,7 @@ def draw_lives():
 
 # screen = pygame.display.set_mode((WIDTH, HEIGHT))
 timer = pygame.time.Clock()
-font_location = os.path.join('./', 'ubuntu', 'Ubuntu-R.ttf')
+font_location = os.path.join('./', 'Fonts', 'ubuntu', 'Ubuntu-R.ttf')
 game_font = pygame.font.Font(font_location, 20)
 
 ADD_ENEMY1 = pygame.USEREVENT + 1
